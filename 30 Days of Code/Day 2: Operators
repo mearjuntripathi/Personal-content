@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    double mealCost;
+    cin >> mealCost;
+
+    int tipPercent;
+    cin >> tipPercent;
+
+    int taxPercent;
+    cin >> taxPercent;
+    
+    double tip=mealCost*tipPercent/100;
+    double tax=mealCost*taxPercent/100;
+    int totalCost=(int)round(mealCost+tip+tax);
+    cout<<totalCost;
+    
+    return 0;
+}
