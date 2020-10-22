@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int n,num;
+    long fact=1;
+    cin>>n;
+    if(n<0)
+      {
+          cout<<"No factorial of negative number.";
+      }
+    else
+      {
+            for(int i=n;i>=1;i--)
+              {
+                  fact=fact*i;    
+              }
+            cout<<fact;
+      }
+    return 0;    
+}
