@@ -3,7 +3,21 @@ using namespace std;
 
 void Final_grade(int n,vector<int> &arr)
 {
+    
+    
     for(int i=0 ; i<n ; i++)
+    {
+        if(arr[i] > 37)
+        {
+            int val=arr[i]%5;
+            if(val>=3)
+            arr[i]=arr[i]+(5-val);
+        }
+        cout<<arr[i]<<endl;
+    }
+    
+    
+    /*for(int i=0 ; i<n ; i++)
     {
         if(arr[i] > 37)
         {
@@ -25,6 +39,7 @@ void Final_grade(int n,vector<int> &arr)
         }
         cout<<arr[i]<<endl;
     }
+    */
     
 }
 
