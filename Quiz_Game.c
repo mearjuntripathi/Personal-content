@@ -209,9 +209,9 @@ char* welcome_theme()
 	getch();
 	clrscr();
 	gotoxy(1,1);
-	cprintf("�-");
+	cprintf("Ú-");
 	gotoxy(79,1);
-	cprintf("-�");
+	cprintf("-¿");
 	gotoxy(8,5);
 	while(a!=66)
 	{
@@ -249,9 +249,9 @@ char* welcome_theme()
 	window(1,17,80,25);
 	textcolor(15);
 	gotoxy(1,8);
-	cprintf("�-");
+	cprintf("À-");
 	gotoxy(79,8);
-	cprintf("-�");
+	cprintf("-Ù");
 	while(!kbhit())
 	{
 		delay(100);
@@ -1074,6 +1074,12 @@ int lifeline(int*l,int*que_loop)
 
 				 /* DEVELOPED BY */
 				/* ARJUN TRIPATHI */
-				  /* THANK YOU */
 
+				  /*DIRECTION BY*/
+				  /* KARDAM SIR */
+
+				   /* PARTENER */
+				 /* ANAND KUMAR */
+
+				  /* THANK YOU */
 
