@@ -1,0 +1,352 @@
+char *Question[] = {
+"Q. Which crop is sown on the largest area in India?",
+
+"Q. Who is known as \"The Saint of Gutters\"?",
+ 
+"Q. The capital of Uttarakhand is _______________?",
+
+"Q. In which state has the largest area?",
+
+"Q. Geet Govind is a famous creation of _______?",
+
+"Q. In which year did the Cabinet Mission arrived in India?",
+
+"Q. Which state has the largest population?",
+
+"Q. In which state is the Elephant Falls located?",
+
+"Q. Where is the pen-drive put in a computer?",
+
+"Q. PARAM is an example of?",
+
+"Q. Which of the following is/are characteristics of Computer?",
+
+"Q. Which language is used for Artificial Intelligence (AI)?",
+
+"Q. The chip used in computers, is made of ______?",
+
+"Q. Fourth Generation computers were based on _______?",
+
+"Q. The main circuit-board of the system unit is _______?",
+
+"Q. ALU and Control Unit have special purpose locations called?",
+
+"Q. External Bus is also referred as _________?",
+
+"Q. Interrupts that are initiated by an instruction are_______?",
+
+"Q. A parallel port is most often used by ________?",
+
+"Q. Which of the following is not a hardware?",
+
+"Q. The refresh rate of monitor is measured in _______?",
+
+"Q. Where would you find the letters \"QWERTY\"?",
+
+"Q. A nibble is equal to _______?",
+
+"Q. The term ‘giga byte’ equals to ________?",
+
+"Q. A byte is a collection of _______?",
+
+"Q. CPU performs read/write operations at any point in a time?",
+
+"Q. Which of the following is the smallest measure of storage?",
+
+"Q. Kilobyte equals to how many bytes?",
+
+"Q. Which of the following is System Software?",
+
+"Q. The only language which the computer understands is ______?",
+
+"Q. Line Printers that print one line at a time are _________?",
+
+"Q. Components that provide internal storage to the CPU are ______?",
+
+"Q. Which of the following is non-volatile storage?",
+
+"Q. A non-erasable disk that stores digitized audio information is ?",
+
+"Q. Which of the following is not a bitwise operator?",
+
+"Q, The value of base in a decimal number system is _____?",
+
+"Q. What do you call a a specific instruction designed to do a task?",
+
+"Q. Which Country has no River?",
+
+"Q. Virus is the word of which language?",
+
+"Q. Which Country has the most Natural Lakes?",
+
+"Q. International Women's Day is celebrated each year on?",
+
+"Q. Garba Dance is performed in Hindu Festival?",
+
+"Q. Garba Dance originated from_____?",
+
+"Q. Which country has large number of nuclear warheads? ",
+
+"Q. Which country cricket team won the blind world cup 2018?",
+
+"Q. Which two countries are separated by Mac Mohan Line?",
+
+"Q. IBM has purchased open source software company Red Hat for?",
+
+"Q. SAARC Disaster Management Center was set up in Oct 2006 at?",
+
+"Q. Which crop is sown on the largest area in India?",
+
+"Q. Which of the following personalities gave \"The Laws of Heredity\"?",
+
+"Q. Garampani sanctuary is located at?",
+
+"Q. Who is known as \"The Saint of Gutters\"?",
+
+"Q. Grand Central Terminal, Park Avenue, New York is the world’s?",
+
+"Q. The capital of Uttarakhand is...?",
+
+"Q. In which state has the largest area?",
+
+"Q. Geet Govind is a famous creation of ____?",
+
+"Q. When did the World Trade Organization come into existence?",
+
+"Q. In which year did the Cabinet Mission arrived in India?",
+
+"Q. Golf player Vijay Singh belongs to which country?",
+
+"Q. Panchayati Raj belongs to...?",
+
+"Q. When did the first Afghan war happen?",
+
+"Q. Which state has the largest population?",
+
+"Q. Whose creations are Harshcharita and KadamBari?",
+
+"Q. When the India launched Targeted Public Distribution System?",
+
+"Q. When was the war of american independence?",
+
+"Q. For Olympic and World tournaments, the basketball court has dimensions",
+
+"Q. In which city the India's first-ever national police museum will be established?",
+
+"Q. Under which of the following trees, Buddha got enlightment?",
+
+"Q. Which of the following is the world’s largest and deepest ocean?",
+
+"Q. World Red Cross and Red Crescent Day are celebrated every year on?",
+
+"Q. The literacy rate of India is...?",
+
+"Q. In which state is the Elephant Falls located?",
+
+"Q. Which Indian state has the least literacy rate?",
+
+"Q. When was SAARC formed?",
+
+"Q. Is the judiciary of the Guwahati High Court?",
+
+"Q. Which of the following is not a member of the European Union?",
+
+"Q. India’s largest petrochemical complex is located at?",
+
+"Q. Where is the headquarters of ASEAN located?",
+
+"Q. Which space agency sends 104 satellites in a single mission in 2017?",
+
+"Q. When cycling federation of India was established?",
+
+"Q. During World War II, when did Germany attack France?",
+
+"Q. The first cricket club of India was established?",
+
+"Q. Which of the following was the author of Economist?",
+
+"Q. When India national football team was established?"
+
+"Q. Who was the first speaker of Lok Sabha?",
+
+"Q. What causes filariasis?"
+};
+
+
+
+char *Option[]={
+"A. Rice", "B. Wheat", "C. Sugarcane", "D. Maize",
+
+"A. Baba Amte", "B. Mother Teresa", "C. Anna Hazare", "D. None of these",
+
+"A. Masoorie", "B. Dehra Dun", "C. Nainital", "D. None of these",
+
+"A. Maharashtra", "B. Madhya Pradesh", "C. Uttar Pradesh", "D. Rajasthan",
+
+"A. Bana Bhatt", "B. Kalidas", "C. Jayadev", "D. Bharat Muni",
+
+"A. 1942", "B. 1943", "C. 1945", "D. 1946",
+
+"A. Uttar Pradesh", "B. Maharastra", "C. Bihar", "D. Andra Pradesh",
+
+"A. Mizoram", "B. Orissa", "C. Manipur", "D. Meghalaya",
+
+"A. Floppy drive", "B. USB port", "C. Hard-disk", "D. DVD drive",
+
+"A. Super computer", "B. Laptop", "C. PDA", "D. PC",
+
+"A. Diligence", "B. Versatility", "C. Reliability", "D. All of the Above",
+
+"A. FORTRAN", "B. COBOL", "C. C ", "D. PROLOG",
+
+"A. Silicon", "B. Iron Oxide", "C. Chromium", "D. Copper",
+
+"A. IC", "B. Vacuum tube", "C. Transistor", "D. Microprocessor",
+
+"A. RAM", "B. Mother Board", "C. Hard disk", "D. Socket",
+
+"A. Registers", "B. Mother Board", "C. Sockets", "D. RAM",
+
+"A. System Bus", "B. Memory Bus", "C. Front-Side Bus", "D. Expansive Bus",
+
+"A. internal", "B. external", "C. software", "D. hardware",
+
+"A. Scanner", "B. Printer", "C. Keyboard", "D. Mouse",
+
+"A. Processor", "B. Printer", "C. Mouse", "D. Java",
+
+"A. byte", "B. Second", "C. Hertz", "D. Frequency",
+
+"A. Joy Stick", "B. Light Pen", "C. Keyboard", "D. Light pen",
+
+"A. 4 bits", "B. 8 bits", "C. 16 bits", "D. 32 bits",
+
+"A. 1024 byte", "B. 1024 KB", "C. 1024 GB", "D. 1024 MB",
+
+"A. 4 bits", "B. 12 bits", "C. 6 bits", "D. 8 bits",
+
+"A. PROM", "B. EPROM", "C. RAM", "D. ROM",
+
+"A. KB", "B. MB", "C. TB", "D. Byte",
+
+"A. 1000", "B. 1064", "C. 1024", "D. 512",
+
+"A. WhatsApp", "B. Microsoft word", "C. Microsoft Excel", "D. Windows 7",
+
+"A. Assembly language", "B. Binary language", "C. BASIC", "D. C Language",
+
+"A. Laser Printers", "B. Inkjet Printers", "C. Drum Printers", "D. Chain Printers",
+
+"A. Registers", "B. Program Counters", "C. Controllers", "D. Internal chips",
+
+"A. Backup", "B. Secondary", "C. Primary", "D. Cache",
+
+"A. CD", "B. CD-ROM", "C. DVD-R", "D. DVD_RW",
+
+"A. |", "B. ^", "C. .", "D. <<",
+
+"A. 8", "B. 2", "C. 10", "D. 16",
+
+"A. Command", "B. Process", "C. Task", "D. Instruction",
+
+"A. Qatar","B. UAE","C. JORDAN","D. Saudi Arabia",
+
+"A. English","B. Latin","C. Greek","D. None of These",
+
+"A. Finland","B. Canada","C. China","D. None of these",
+
+"A. 12 March","B. 16 March","C. 6 March","D. 8 March",
+
+"A. Diwali","B. Holi","C. Navartri","D. Raksha Bandhan",
+
+"A. Punjab","B. Gujrat","C. Ahmedabad","D. Kolkata",
+
+"A. Russia","B. America","C. France","D. China",
+
+"A. Pakistan","B. India","C. Afghanistan","D. Australia",
+
+"A. India and China","B. India and Nepal","C. India and Bangladesh","D. none of these",
+
+"A. $24 billion","B. $34 billion ","C. $44 billion","D. $51 billion",
+
+"A. Kabul","B. Khatmando","C. New Delhi","D. Islamabad",
+
+"A. Rice","B. Wheat","C. Sugarcane","D. Maize",
+
+"A. Robert Hook","B. G.J. Mendel","C. Charles Darwin","D. William Harvey",
+
+"A. Junagarh, Gujarat","B. Diphu, Assam","C. Kohima, Nagaland","D. Gangtok, Sikkim",
+
+"A. Baba Amte","B. Mother Teresa","C. Anna Hazare","D. None of these",
+
+"A. largest railway station","B. highest railway station","C. longest railway station","D. None of the above",
+
+"A. Masoorie","B. Dehra Dun","C. Nainital","D. None of these",
+
+"A. Maharashtra","B. Madhya Pradesh","C. Uttar Pradesh","D. Rajasthan",
+
+"A. Bana Bhatt","B. Kalidas","C. Jayadev","D. Bharat Muni",
+
+"A. 1992","B 1993","C. 1994","D. 1995",
+
+"A. 1942","B. 1943","C. 1945","D. 1946",
+
+"A. USA","B. Fiji","C. India","D. UK",
+
+"A. Residual list","B. Concurrent list","C. State list","D. Union list",
+
+"A. 1839","B. 1843","C. 1833","D. 1848",
+
+"A. Uttar Pradesh","B. Maharastra","C. Bihar","D, Andra Pradesh",
+
+"A. Kalhan","B. Panini","C. Bana Bhatta","D. Patanjali",
+
+"A. 1995","B. 1996","C. 1997","D. 1998",
+
+"A. 1770","B. 1772","C. 1774","D. 1776",
+
+"A. 26 m x 14 m","B. 28 m x 15 m","C. 27 m x 16 m","D. 28 m x 16 m",
+
+"A. Chennai","B. Delhi","C. Nagpur","D. Kolkata",
+
+"A. Ficus benghalensis","B. Ficus religiosa","C. Ficus microcarpa","D. Ficus elastica",
+
+"A. Arctic","B. Atlantic","C. Pacific","D. Indian",
+
+"A. May 8","B. May 18","C. June 8","D. June 18",
+
+"A. 57.86%","B. 61.34%","C. 63.98%","D. 65.38%",
+
+"A. Mizoram","B. Orissa","C. Manipur","D. Meghalaya",
+
+"A. Bihar","B. Rajasthan","C. Arunachal Pradesh","D. Orissa",
+
+"A. 1982","B. 1984","C. 1985","D. 1986",
+
+"A. Nagaland","B. Arunachal Pradesh","C. Assam","D. All of the above",
+
+"A. Greece","B. Finland","C. Norway","D. United Kingdom",
+
+"A. Gujarat","B. Maharastra","C. Rajasthan","D. Assam Hide",
+
+"A. Male","B. Kathmandu","C. Jakarta","D. Kuala Lumpur",
+
+"A. ISRO","B. NASA","C. Russian Agency","D. China space Agency",
+
+"A. 1946","B. 1846","C. 1947","D. 1952",
+
+"A. 1940","B. 1941","C. 1942","D. 1943",
+
+"A. 1792 In Calcutta","B. 1793 in Delhi","C. 1892 in Calcutta","D. 1992 in Delhi",
+
+"A. Kalhan","B. Visakhadatta","C. Bana Bhatta","D. Chanakya",
+
+"A. 1937","B. 1938","C. 1940","D. 1952",
+
+"A. K.M. Munshi","B. (C)(D) Deshmukh","C. G.V. Mavalankar","D. H.J. Kania",
+
+"A. Bacteria","B. Mosquito","C. Protozoa","D. Virus"
+};
+
+
+char *Answer[]={"a","b","b","d","c","d","a","d","b","a","d","d","a","d","b","a","d","c","b","d","c","a","d","b","d","c","d","b","c","a","b","a","c","c","a","d","b","b","d","c","b","a","b","a","b","c","a","b","b","b","a","b","d","c","d","d","b","a","a","b","c","d","b","b","b","c","a","d","d","a","c","d","c","a","c","a","a","a","a","d","a","c","c"};
