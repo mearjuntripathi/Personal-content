@@ -6,3 +6,4 @@ function main()
     let perimeter=2*PI*r;
     console.log(area);
     console.log(perimeter);
+}
