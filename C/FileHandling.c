@@ -94,6 +94,8 @@ void Function7();
 void Function8();
 void Function9();
 
+// eska liye ham ek- ek function ko uncomment krke use hone k baad use comment out kr denge
+
 int main(void){
     // sbase pahale file banana hai aur usme value dalani hai to putc se karnge to create a new file
     // Function1();
@@ -116,7 +118,9 @@ int main(void){
 
     // Now we understand fwrite function fread function
     // Function8();
-    Function9();
+    // Function9();
+
+    return 0;
 }
 
 void Function1(){
