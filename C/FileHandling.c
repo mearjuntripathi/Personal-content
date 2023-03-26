@@ -34,7 +34,7 @@
             |-------------------------------------------------------------------------|------------------------------------------------------------------|
             | 01. FILE *fopen(const *char file_name, const *char file_mode);          | For open a file                                                  |
             | 02. int fputc(int c, FILE *fptr);                                       | Use to write a character to the specied file                     |
-            | 03. int fgetc(FILE *fptr);                                             | Use to read a single character from given file                   |
+            | 03. int fgetc(FILE *fptr);                                              | Use to read a single character from given file                   |
             | 04. int fputs(const char *str, FILE *fptr);                             | It put a sentence in a specified file                            |
             | 05. int gets(char *str, int n, FILE *fptr);                             | It give a sentence from a apecified file                         |
             | 06. int fprintf(FILE *fptr, const char *format[,argument,...]);         | It similar as printf it write formated data in file              |                                                |             
