@@ -60,7 +60,7 @@
                   ________________________________________________
                   |    CONSTANT     |   VALUE  |     POSITION      |
                   |-----------------|----------|-------------------|
-                  | 1. SEEK_SET     |    0     | Beginning og file |
+                  | 1. SEEK_SET     |    0     | Beginning of file |
                   | 2. SEEK_CURRENT |    1     | Current Position  |
                   | 3. SEEK_END     |    2     | End of File       |           
                   +-----------------+----------+-------------------+  
@@ -93,6 +93,9 @@ void Function6();
 void Function7();
 void Function8();
 void Function9();
+void Function10();
+void Function11();
+void Function12();
 
 // eska liye ham ek- ek function ko uncomment krke use hone k baad use comment out kr denge
 
@@ -119,6 +122,15 @@ int main(void){
     // Now we understand fwrite function fread function
     // Function8();
     // Function9();
+
+    // Now we understand a fseek
+    // Function10();
+
+    // Now we understand a ftell
+    // Function11();
+
+    // Now we understood rewind
+    Function12();
 
     return 0;
 }
@@ -245,4 +257,48 @@ void Function9(){
     while(fread(&record,sizeof(record),1,p) == 1)
         printf("%d. username - %s \t id - %d\n",i++,record.username,record.id);
     fclose(p);
+}
+
+void Function10(){
+    struct Record {
+        char username[25];
+        int id;
+    } record;
+
+    FILE *p = fopen("first.txt","rb");
+    printf("You are Enter a no of Record: ");
+    int n;
+    scanf("%d",&n);
+
+    fseek(p,(n-1)*sizeof(record),SEEK_SET);
+    fread(&record,sizeof(record),1,p);
+        printf("username - %s \t id - %d\n",record.username,record.id);
+    fclose(p);
+}
+
+void Function11(){
+    struct Record {
+        char username[25];
+        int id;
+    } record;
+
+    FILE *p = fopen("first.txt","rb");
+    printf("Position indicator in the beginning %ld: ",ftell(p));
+
+    int i = 1;
+    while(fread(&record,sizeof(record),1,p) == 1){
+    printf("\nPosition indicator in the beginning %ld: \n",ftell(p));
+        printf("%d. username - %s \t id - %d\n",i++,record.username,record.id);
+    }
+    fclose(p);
+}
+
+void Function12(){
+    FILE *p;
+    p = fopen("first.txt", "rb+");
+    printf("Position indicator: %ld\n",ftell(p));
+    fseek(p,0,SEEK_END);
+    printf("\nPosition indicator: %ld\n",ftell(p));
+    rewind(p);
+    printf("Position indicator: %ld\n",ftell(p));
 }
